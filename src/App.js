@@ -82,12 +82,6 @@ class App extends React.Component {
                     <div className="descripcion">
                       <h3>{this.state.personajeSeleccionado.name}</h3>
                       <div className="caracteristica">
-                        <p>Status</p>
-                        <p className="caracteristica-valor">
-                          {this.state.personajeSeleccionado.status}
-                        </p>
-                      </div>
-                      <div className="caracteristica">
                         <p>Especie</p>
                         <p className="caracteristica-valor">
                           {this.state.personajeSeleccionado.species}
